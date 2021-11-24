@@ -14,7 +14,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background-color: var(--background_color);
-    color: var(--abisso);
 }
 
 body > :not(header):not(footer) {
@@ -80,8 +79,8 @@ header {
     width: 300px;
 }
 
-/* MAIN - Band's Media & Songs */
-.media-container {
+/* MAIN - Band's PROMOTIONS */
+.promotions-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -90,7 +89,9 @@ header {
 .carousel {
     width: 70%;
     margin: 0 5px;
+    overflow: hidden;
 }
+
 
 .spotify-playlist {
     width: 30%;
@@ -103,6 +104,7 @@ header {
     font-weight: 900;
     font-size: 40px;
     margin: 80px;
+    color: var(--abisso);
 }
 
 /* BAND - */
