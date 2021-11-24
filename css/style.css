@@ -35,8 +35,12 @@ footer {
 }
 
 .icons {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     margin: 5px;
     padding: 5px;
+}
+
+.icons img {
+    width: 100%;
 }
