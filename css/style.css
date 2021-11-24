@@ -13,3 +13,30 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Footer */
+footer {
+    background-color: var(--abisso);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    color: white;
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+}
+
+.icons {
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    padding: 5px;
+}
