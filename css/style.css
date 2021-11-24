@@ -14,6 +14,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background-color: var(--background_color);
+    color: var(--abisso);
 }
 
 /* Header */
@@ -61,12 +62,25 @@ header {
     border-radius: 3px;
 }
 
+
+
+/* TITLE */
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 80px;
+}
+
+/* BAND - */
+
+
 /* BAND - Members Section */
 .members-flexbox {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    flex-wrap: wrap;
 }
 
 .member-info {
@@ -79,6 +93,18 @@ header {
 .member-image {
     width: 100%;
     border-radius: 50%;
+}
+
+.member-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.member-icon img {
+    width: 100%;
 }
 
 /* Footer */
