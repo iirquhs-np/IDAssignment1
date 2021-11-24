@@ -17,6 +17,14 @@ body {
     color: var(--abisso);
 }
 
+body > :not(header):not(footer) {
+    margin: 50px;
+}
+
+iframe {
+    border: 0;
+}
+
 /* Header */
 header {
     display: flex;
@@ -139,8 +147,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .copyright {
@@ -155,8 +163,7 @@ footer {
 .icons {
     height: 20px;
     width: 20px;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
 }
 
 .icons img {
