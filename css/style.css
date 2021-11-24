@@ -61,8 +61,25 @@ header {
     border-radius: 3px;
 }
 
+/* BAND - Members Section */
+.members-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+}
 
+.member-info {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.member-image {
+    width: 100%;
+    border-radius: 50%;
+}
 
 /* Footer */
 footer {
