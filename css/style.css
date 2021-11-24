@@ -62,7 +62,32 @@ header {
     border-radius: 3px;
 }
 
+/* MAIN - Showcase */
+.showcase {
+    text-align: center;
+}
 
+.showcase img {
+    height: 300px;
+    width: 300px;
+}
+
+/* MAIN - Band's Media & Songs */
+.media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel {
+    width: 70%;
+    margin: 0 5px;
+}
+
+.spotify-playlist {
+    width: 30%;
+    margin: 0 5px;
+}
 
 /* TITLE */
 .title {
