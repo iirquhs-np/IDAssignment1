@@ -1,0 +1,15 @@
+/* Variables */
+:root {
+    /* Colours by GlueStudio */
+    --background_color: #F5D9A3;
+    --terra_terra: rgb(232, 221, 203);
+    --terra: rgb(205, 179, 128);
+    --acqua: rgb(3, 101, 100);
+    --acqua_profonda: rgb(3, 54, 73);
+    --abisso: rgb(3, 22, 52);
+}
+
+/* Page-wide styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
