@@ -17,7 +17,7 @@ body {
 }
 
 body > :not(header):not(footer) {
-    margin: 50px;
+    margin: 0 150px;
 }
 
 iframe {
@@ -40,6 +40,11 @@ header {
     font-size: 25px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: var(--terra_terra);
+}
+
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -55,6 +60,7 @@ header {
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
+    z-index: 1;
 }
 
 .burger {
@@ -73,10 +79,16 @@ header {
 .showcase {
     text-align: center;
 }
-
+/*
 .showcase img {
     height: 300px;
     width: 300px;
+}
+ */
+
+.videosrc {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* MAIN - Band's PROMOTIONS */
@@ -92,10 +104,18 @@ header {
     overflow: hidden;
 }
 
-
 .spotify-playlist {
-    width: 30%;
+    max-width: 30%;
     margin: 0 5px;
+}
+
+/* MAIN - SHOWS*/
+.shows {
+    margin-top: 10px;
+}
+
+.shows h2 {
+    text-align: center;
 }
 
 /* TITLE */
@@ -182,6 +202,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    body > :not(header):not(footer) {
+        margin: 0 10px;
+    }
     body {
         overflow-x: hidden;
     }
@@ -205,6 +228,14 @@ footer {
         display: block;
         cursor: pointer;
     }
+    .videosrc {
+        max-width: 100%;
+    }
+    /*
+    .member-info {
+        flex: 40%;
+    }
+     */
 }
 
 .nav-active {
