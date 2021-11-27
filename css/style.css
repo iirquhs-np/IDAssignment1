@@ -9,6 +9,10 @@
     --abisso: rgb(3, 22, 52);
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 /* Page-wide styles */
 body {
     font-family: 'Montserrat', sans-serif;
