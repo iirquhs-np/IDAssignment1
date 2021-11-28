@@ -18,10 +18,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background-color: var(--background_color);
+
 }
 
 body > :not(header):not(footer) {
     margin: 0 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 iframe {
@@ -94,6 +98,7 @@ header {
 .videosrc {
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 /* MAIN - Band's PROMOTIONS */
@@ -101,6 +106,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.promotions-container div {
+    margin: 10px 50px;
 }
 
 /* Slideshow container */
@@ -119,8 +128,9 @@ header {
     width: 600px;
     max-width: 1000px;
     height: auto;
+    box-shadow: 0 0 20px black;
+    border-radius: 5px;
 }
-
 
 /* Caption text */
 .text {
@@ -141,7 +151,6 @@ header {
     position: absolute;
     top: 0;
 }
-
 
 .active, .dot:hover {
     background-color: #717171;
@@ -165,15 +174,19 @@ header {
     to {opacity: 1}
 }
 
-
 .spotify-playlist {
     max-width: 30%;
     margin: 0 5px;
 }
 
+.spotify-playlist iframe {
+    border-radius: 10px;
+}
+
 /* MAIN - SHOWS*/
 .shows {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Tables */
