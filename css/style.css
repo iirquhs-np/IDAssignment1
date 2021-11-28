@@ -176,9 +176,62 @@ header {
     margin-top: 10px;
 }
 
-.shows h2 {
-    text-align: center;
+/* Tables */
+.shows-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
 }
+
+.shows-table thead tr {
+    background-color: var(--acqua);
+    color: white;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+.shows-table th,
+.shows-table td {
+    padding: 20px 25px;
+}
+
+.shows-table tbody tr {
+    border-bottom: 1px solid white;
+    background-color: white;
+}
+
+.shows-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.shows-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--acqua);
+}
+
+/* If want to do highlighting specific row
+.shows-table tbody tr.active-row {
+    font-weight: 600;
+    color: var(--acqua);
+}
+*/
+
+#booking {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+#booking a {
+    text-decoration: none;
+    color: var(--acqua);
+}
+
 
 /* TITLE */
 .title {
