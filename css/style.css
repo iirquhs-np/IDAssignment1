@@ -13,26 +13,25 @@
     scroll-behavior: smooth;
 }
 
-/* Page-wide styles */
+/* =============================== */
+/*        SITE-WIDE STYLES         */
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background-color: var(--background_color);
 
 }
-
 body > :not(header):not(footer) {
     margin: 0 150px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 iframe {
     border: 0;
 }
 
-/* Header */
+/* HEADER - START */
 header {
     display: flex;
     justify-content: space-around;
@@ -84,7 +83,58 @@ header {
     border-radius: 3px;
 }
 
-/* MAIN - Showcase */
+
+
+/* HEADER - END */
+
+/* TITLE - START */
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 80px;
+    color: var(--abisso);
+}
+/* TITLE - END */
+
+
+/* FOOTER - START */
+footer {
+    background-color: var(--abisso);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    color: white;
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+.icons img {
+    width: 100%;
+}
+/* FOOTER - END */
+
+
+
+/* =============================== */
+/*        INDEX.HTML STYLES        */
+
+/* SHOWCASE - START */
 .showcase {
     text-align: center;
 }
@@ -100,8 +150,10 @@ header {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+/* SHOWCASE - END */
 
-/* MAIN - Band's PROMOTIONS */
+
+/* PROMOTIONS - START */
 .promotions-container {
     display: flex;
     flex-direction: row;
@@ -183,8 +235,10 @@ header {
 .spotify-playlist iframe {
     border-radius: 10px;
 }
+/* PROMOTIONS - END */
 
-/* MAIN - SHOWS*/
+
+/* SHOW TABLE - START */
 .shows {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -205,7 +259,6 @@ header {
     color: white;
     text-align: left;
     font-weight: 600;
-
 }
 
 .shows-table th,
@@ -245,18 +298,14 @@ header {
     text-decoration: none;
     color: var(--acqua);
 }
+/* SHOW TABLE - END */
 
 
-/* TITLE */
-.title {
-    text-align: center;
-    font-weight: 900;
-    font-size: 40px;
-    margin: 80px;
-    color: var(--abisso);
-}
 
-/* BAND - */
+/* =============================== */
+/*        BAND.HTML STYLES        */
+
+/* ABOUT - START */
 .about-flexbox {
     display: flex;
     flex-direction: row;
@@ -271,9 +320,10 @@ header {
 .about-fleximg {
     margin: 10px;
 }
+/* ABOUT - END */
 
 
-/* BAND - Members Section */
+/* MEMBERS - START */
 .members-flexbox {
     display: flex;
     flex-direction: row;
@@ -293,6 +343,10 @@ header {
     border-radius: 50%;
 }
 
+.member-name {
+    font-weight: 600;
+}
+
 .member-icon {
     height: 20px;
     width: 20px;
@@ -307,9 +361,12 @@ header {
     height: 20px;
     width: 20px;
 }
+/* MEMBERS - END */
 
+/* =============================== */
+/*        BAND.HTML STYLES        */
 
-/* CONTACT */
+/* FORM - START */
 .form-container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -340,36 +397,10 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
+/* FORM - END */
 
-/* Footer */
-footer {
-    background-color: var(--abisso);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
-.copyright {
-    color: white;
-    font-weight: 600;
-}
 
-.socials {
-    display: flex;
-}
-
-.icons {
-    height: 20px;
-    width: 20px;
-    margin: 10px;
-}
-
-.icons img {
-    width: 100%;
-}
 
 
 @media screen and (max-width: 1280px) {
@@ -415,8 +446,7 @@ footer {
         flex: 40%;
     }
      */
-}
-
-.nav-active {
-    transform: translateX(0%);
+    .nav-active {
+        transform: translateX(0%);
+    }
 }
