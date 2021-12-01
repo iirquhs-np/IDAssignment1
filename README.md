@@ -63,23 +63,23 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- https://www.m1ldl1fe.com
-- Spotify tracks for m1ldl1fe: https://open.spotify.com/artist/4dDWr3bmcGdlbLsWofWail
+- https://www.m1ldl1fe.com/
+- Spotify tracks for m1ldl1fe: https://open.spotify.com/artist/4dDWr3bmcGdlbLsWofWail/
 
 ### Media
 - The photos used in this site were obtained from:
   - **Home**
-    - https://asialive365.com/interview-then-now-talking-the-small-lanes-with-m1ldl1fe
+    - https://asialive365.com/interview-then-now-talking-the-small-lanes-with-m1ldl1fe/
     - https://www.esquiresg.com/m1ldl1fe-dawn-to-dusk-music-playlist-52/
-    - https://www.manilaconcertjunkies.com/2020/06/small-lanes-m1ldlife.html
+    - https://www.manilaconcertjunkies.com/2020/06/small-lanes-m1ldlife.html/
   - **Band**
-      - https://twitter.com/m1ldl1fe
-      - https://www.lifeinarpeggio.com/blog/dsml-david-siow-interview-pop-electronic-producers-musicians-singapore
-      - https://www.linkedin.com/in/peng-sing-tan-09966558
-      - https://www.businesstimes.com.sg/lifestyle/arts-entertainment/cultivating-a-love-for-the-arts
-      - https://www.instagram.com/potatetomate_
+      - https://twitter.com/m1ldl1fe/
+      - https://www.lifeinarpeggio.com/blog/dsml-david-siow-interview-pop-electronic-producers-musicians-singapore/
+      - https://www.linkedin.com/in/peng-sing-tan-09966558/
+      - https://www.businesstimes.com.sg/lifestyle/arts-entertainment/cultivating-a-love-for-the-arts/
+      - https://www.instagram.com/potatetomate_/
   - **Merch**
-    - https://www.m1ldl1fe.com
+    - https://www.m1ldl1fe.com/
   - **Footer**
     - [add the flaticon credits]
 
@@ -88,6 +88,6 @@ If this section grows too long, you may want to split it off into a separate fil
 I received inspiration from the original m1ldl1fe site.
 
 - Merch filtering:
-  - https://www.w3schools.com/howto/howto_js_filter_lists.asp
+  - https://www.w3schools.com/howto/howto_js_filter_lists.asp/
 - Contact form:
   - [add contact form link]
