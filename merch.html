@@ -44,21 +44,61 @@
 
 
     <!-- SEARCH - START -->
-    <div class="search">
-        <label for="merch-search">Search for merch:</label> <br>
-        <input type="search" id="merch-search" aria-label="Search for merch">
-    </div>
+    <form action="" class="search">
+        <label for="searchInput">Search for merch: </label>
+        <input type="text" id="searchInput" onkeyup="searchMerch()" placeholder="Search...">
+    </form>
     <!-- SEARCH - END -->
 
 
     <!-- MERCH - START -->
-    <div class="merch-container">
+    <div class="merch-container" id="merchContainer">
         <div class="merch-item">
-            <img class="merch-image" src="" alt="" >
+            <img class="merch-image" src="img/merch/pairs-ep.jpg" alt="" >
+            <div class="merch-details">
+                <h2 class="merch-name">M1LDPACK</h2>
+                <h3 class="merch-price">S$25.00</h3>
+                <p class="merch-desc">A little pack of m1ld things, including a copy of our debut EP titled 'M1LDL1FE'.</p>
+            </div>
+        </div>
+        <div class="merch-item">
+            <img class="merch-image" src="img/merch/m1ldl1fe-band-tee.jpg" alt="" >
+            <div class="merch-details">
+                <h2 class="merch-name">M1LDL1FE BAND TEE</h2>
+                <h3 class="merch-price">S$25.00</h3>
+                <p class="merch-desc">M1LD Tee in 100% Premium Gildan Cotton. Currently comes in Navy and Light Pink. </p>
+            </div>
+        </div>
+        <div class="merch-item">
+            <img class="merch-image" src="img/merch/m1ldl1fe-mug.jpeg" alt="" >
+            <div class="merch-details">
+                <h2 class="merch-name">M1LDL1FE MUG</h2>
+                <h3 class="merch-price">S$12.00</h3>
+                <p class="merch-desc">Can hold 250ml of beverage or stationery.</p>
+            </div>
+        </div>
+        <div class="merch-item">
+            <img class="merch-image" src="img/merch/pairs-ep.jpg" alt="" >
             <div class="merch-details">
                 <h2 class="merch-name">'PAIRS' EP</h2>
                 <h3 class="merch-price">S$10.00</h3>
-                <p class="merch-desc">This is a short description.</p>
+                <p class="merch-desc">Our first EP released as the band Take Two in 2014.</p>
+            </div>
+        </div>
+        <div class="merch-item">
+            <img class="merch-image" src="img/merch/take-two-tote-bag.jpg" alt="" >
+            <div class="merch-details">
+                <h2 class="merch-name">TAKE TWO TOTE BAG</h2>
+                <h3 class="merch-price">S$12.00</h3>
+                <p class="merch-desc">Take Two canvas tote bag with the 'PAIRS' EP cover art emblazoned.</p>
+            </div>
+        </div>
+        <div class="merch-item">
+            <img class="merch-image" src="img/merch/stickers.jpeg" alt="" >
+            <div class="merch-details">
+                <h2 class="merch-name">STICKERS - TOO M1LD FOR L1FE</h2>
+                <h3 class="merch-price">S$8.00</h3>
+                <p class="merch-desc">“TOO M1LD FOR L1FE” die-cut, waterproof vinyl stickers in 6 variations.</p>
             </div>
         </div>
     </div>
@@ -85,5 +125,6 @@
 
     <!-- JS --->
     <script src="js/app.js"></script>
+    <script src="js/searchMerch.js"></script>
 </body>
 </html>

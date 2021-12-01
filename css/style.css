@@ -399,8 +399,27 @@ input[type=text], select, textarea {
 }
 /* FORM - END */
 
+.merch-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.merch-item {
+    height: 450px;
+    max-width: 250px;
+    margin: 30px;
 
+}
+
+.merch-image {
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    box-shadow: 0 0 20px black;
+}
 
 
 @media screen and (max-width: 1280px) {
