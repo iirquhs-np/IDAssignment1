@@ -1,8 +1,12 @@
 # M1LDL1FE Band Site
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+Access the site [here](https://www.github.shuqri.xyz/IDAssignment1/).
 
-Essentially, this part is your sales pitch.
+The site's audience is followers of the band who would want to know more about them. There is a history section in the
+band sub-page where it talks about the band's formation and the members of the band.
+
+The fans can gain from this by directly interacting with the band through the website. For example, they can buy 
+merchandise from the site.
 
 ## Design Process
 
@@ -38,7 +42,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The site has been tested using the W3Schools validator.
+- https://validator.w3.org/
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is
+relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
@@ -55,11 +63,31 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- https://www.m1ldl1fe.com
+- Spotify tracks for m1ldl1fe: https://open.spotify.com/artist/4dDWr3bmcGdlbLsWofWail
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from:
+  - **Home**
+    - https://asialive365.com/interview-then-now-talking-the-small-lanes-with-m1ldl1fe
+    - https://www.esquiresg.com/m1ldl1fe-dawn-to-dusk-music-playlist-52/
+    - https://www.manilaconcertjunkies.com/2020/06/small-lanes-m1ldlife.html
+  - **Band**
+      - https://twitter.com/m1ldl1fe
+      - https://www.lifeinarpeggio.com/blog/dsml-david-siow-interview-pop-electronic-producers-musicians-s
+      - https://www.linkedin.com/in/peng-sing-tan-09966558
+      - https://www.businesstimes.com.sg/lifestyle/arts-entertainment/cultivating-a-love-for-the-arts
+      - https://www.instagram.com/potatetomate_
+  - **Merch**
+    - https://www.m1ldl1fe.com
+  - **Footer**
+    - [add the flaticon credits]
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+I received inspiration from the original m1ldl1fe site.
+
+- Merch filtering:
+  - https://www.w3schools.com/howto/howto_js_filter_lists.asp
+- Contact form:
+  - [add contact form link]
