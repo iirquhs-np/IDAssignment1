@@ -74,7 +74,7 @@ If this section grows too long, you may want to split it off into a separate fil
     - https://www.manilaconcertjunkies.com/2020/06/small-lanes-m1ldlife.html
   - **Band**
       - https://twitter.com/m1ldl1fe
-      - https://www.lifeinarpeggio.com/blog/dsml-david-siow-interview-pop-electronic-producers-musicians-s
+      - https://www.lifeinarpeggio.com/blog/dsml-david-siow-interview-pop-electronic-producers-musicians-singapore
       - https://www.linkedin.com/in/peng-sing-tan-09966558
       - https://www.businesstimes.com.sg/lifestyle/arts-entertainment/cultivating-a-love-for-the-arts
       - https://www.instagram.com/potatetomate_
