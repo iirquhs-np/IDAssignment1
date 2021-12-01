@@ -1,6 +1,6 @@
 # M1LDL1FE Band Site
 
-Access the site [here](https://www.github.shuqri.xyz/IDAssignment1/).
+Access the site [here](https://github.shuqri.xyz/IDAssignment1/).
 
 The site's audience is followers of the band who would want to know more about them. There is a history section in the
 band sub-page where it talks about the band's formation and the members of the band.
