@@ -19,7 +19,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background-color: var(--background_color);
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 body > :not(header):not(footer) {
     margin: 0 150px;
@@ -116,6 +118,7 @@ footer {
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: auto;
 }
 
 .copyright {
@@ -329,6 +332,9 @@ footer {
 .about-fleximg {
     margin: 10px;
 }
+.about-fleximg img {
+    border-radius: 50%;
+}
 /* ABOUT - END */
 
 
@@ -411,6 +417,11 @@ input[type=text], input[type=email], select, textarea {
 }
 /* FORM - END */
 
+.search {
+    margin: auto;
+
+}
+
 .merch-container {
     display: flex;
     flex-direction: row;
@@ -433,6 +444,13 @@ input[type=text], input[type=email], select, textarea {
     box-shadow: 0 0 20px black;
 }
 
+.thanks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
 
 @media screen and (max-width: 1280px) {
     .nav-links {
@@ -443,6 +461,9 @@ input[type=text], input[type=email], select, textarea {
     .spotify-playlist {
         max-width: 70%;
         margin: 0 5px;
+    }
+    .about-flexbox {
+        flex-direction: column;
     }
 }
 
@@ -504,5 +525,7 @@ input[type=text], input[type=email], select, textarea {
         max-width: 100%;
         margin: 0 5px;
     }
-
+    .about-flexbox {
+        flex-direction: column;
+    }
 }
