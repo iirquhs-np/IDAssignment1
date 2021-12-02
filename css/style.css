@@ -87,6 +87,15 @@ header {
 
 /* HEADER - END */
 
+/* MAIN TITLE - START */
+.main-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin: 50px auto;
+}
+/* MAIN TITLE - END */
+
+
 /* TITLE - START */
 .title {
     text-align: center;
@@ -255,7 +264,7 @@ footer {
 }
 
 .shows-table thead tr {
-    background-color: var(--acqua);
+    background-color: var(--abisso);
     color: white;
     text-align: left;
     font-weight: 600;
@@ -296,7 +305,7 @@ footer {
 
 #booking a {
     text-decoration: none;
-    color: var(--acqua);
+    color: var(--abisso);
 }
 /* SHOW TABLE - END */
 
@@ -382,7 +391,7 @@ input[type=submit]:hover {
 }
 
 input[type=submit] {
-    background-color: var(--acqua);
+    background-color: var(--abisso);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -431,6 +440,10 @@ input[type=text], input[type=email], select, textarea {
         justify-content: space-around;
         width: 40%;
     }
+    .spotify-playlist {
+        max-width: 70%;
+        margin: 0 5px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -471,4 +484,25 @@ input[type=text], input[type=email], select, textarea {
     .nav-active {
         transform: translateX(0%);
     }
+
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    .mySlides img {
+        max-width: 100%;
+    }
+
+    .spotify-playlist {
+        max-width: 100%;
+        margin: 0 5px;
+    }
+
 }
