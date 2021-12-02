@@ -101,7 +101,7 @@ For the contact form, I saw a use case at https://github.com/bluesoulian/meokja.
 form work.
 
 - Navigation bar:
-  - 
+  - [fill up]
 - Merch filtering:
   - https://www.w3schools.com/howto/howto_js_filter_lists.asp/
 - Contact form:
