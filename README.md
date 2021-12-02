@@ -35,9 +35,6 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - HTML
 - CSS
 - JavaScript
@@ -47,30 +44,32 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
-
-The site has been tested using the W3Schools validator.
+The site has been tested using the W3Schools validator with no major issues.
 - https://validator.w3.org/
+- https://jigsaw.w3.org/css-validator/
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is
-relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Some testing process that you can go through:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
+1. Merchandise page:
+   1. Go to the "Merch" page
+   2. [to be filled up]
+
+
+2. Contact form:
+    1. Go to the "Contact" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid and verify that you will be redirected to a CAPTCHA page.
+    5. After this you will see a “Thank You” page that lasts for 3 seconds, and then you will be redirected back to the contact page.
+    
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The project will also automatically shrink the page to an appropriate size when the browser size gets smaller.
 
 ## Credits
 
 ### Content
-- https://www.m1ldl1fe.com/
-- Spotify tracks for m1ldl1fe: https://open.spotify.com/artist/4dDWr3bmcGdlbLsWofWail/
+- Most content are sourced from: https://www.m1ldl1fe.com/
+- Spotify tracks: https://open.spotify.com/artist/4dDWr3bmcGdlbLsWofWail/
 
 ### Media
 - The photos used in this site were obtained from:
@@ -87,13 +86,23 @@ If this section grows too long, you may want to split it off into a separate fil
   - **Merch**
     - https://www.m1ldl1fe.com/
   - **Footer**
-    - [add the flaticon credits]
+    - Facebook's icons made by [Freepik](https://www.freepik.com) from https://www.flaticon.com/
+    - Instagram's icons made by [edt.im](https://www.flaticon.com/authors/edtim) from https://www.flaticon.com/
 
 ### Acknowledgements
 
+Thank you to my lecturer, Mr Suresh, for giving us encouragement during the class sessions!
+
+A big thank you to my friends for helping me test the site and also by giving me suggestions on how I can improve it better.
+
 I received inspiration from the original m1ldl1fe site.
 
+For the contact form, I saw a use case at https://github.com/bluesoulian/meokja.sg where he used FormSubmit to make the 
+form work.
+
+- Navigation bar:
+  - 
 - Merch filtering:
   - https://www.w3schools.com/howto/howto_js_filter_lists.asp/
 - Contact form:
-  - [add contact form link]
+  - https://www.w3schools.com/howto/howto_css_contact_form.asp
