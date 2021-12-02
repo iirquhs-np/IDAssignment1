@@ -10,7 +10,7 @@ merchandise from the site.
 
 ## Design Process
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Provide us insights about your design process, focusing on whom this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -24,6 +24,8 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
+- Search feature in merch.html
+  - Allows users to filter through the 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -36,8 +38,12 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- HTML
+- CSS
+- JavaScript
+- Google Fonts - specifically [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- [FormSubmit](https://formsubmit.co/)
+    - This project uses **FormSubmit** to make HTML forms live.
 
 
 ## Testing
