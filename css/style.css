@@ -34,12 +34,14 @@ iframe {
 }
 
 /* HEADER - START */
+/* HEADER - START */
+
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: var(--abisso);
+    background: var(--abisso);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 .logo {
@@ -47,6 +49,8 @@ header {
     font-weight: 900;
     letter-spacing: 1px;
     font-size: 25px;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .logo a {
@@ -54,39 +58,146 @@ header {
     color: var(--terra_terra);
 }
 
-.nav-links {
+
+.nav-toggle {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+.nav-toggle:focus ~ .nav-toggle-label {
+    outline: 3px solid rgba(var(--abisso), .75);
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
     display: flex;
-    justify-content: space-around;
-    width: 25%;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: var(--terra_terra);
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
+.nav-links {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--abisso);
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .nav-links li {
-    list-style: none;
-    padding-right: 5px;
+    margin-bottom: 1em;
+    margin-left: 1em;
 }
 
 .nav-links a {
     color: var(--terra_terra);
     text-decoration: none;
+    font-size: 1.2rem;
     font-weight: 600;
-    font-size: 18px;
-    z-index: 10;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
 }
 
-.burger {
-    display: none;
+.nav-links a:hover {
+    color: #ffffff;
 }
 
-.burger div {
-    width: 25px;
-    height: 3px;
-    background-color: var(--terra_terra);
-    margin: 5px;
-    border-radius: 3px;
+.nav-toggle:checked ~ .nav-links {
+    transform: scale(1,1);
 }
 
+.nav-toggle:checked ~ .nav-links a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
 
+@media screen and (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+    }
 
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
+
+    .logo {
+        grid-column: 2 / 3;
+    }
+
+    .nav-links {
+    // all: unset; /* this causes issues with Edge, since it's unsupported */
+
+        /* the following lines are not from my video, but add Edge support */
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1,1);
+        background: none;
+        top: initial;
+        left: initial;
+        /* end Edge support stuff */
+
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav-links ul {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+
+    .nav-links a {
+        opacity: 1;
+        position: relative;
+    }
+
+}
 /* HEADER - END */
 
 /* MAIN TITLE - START */
@@ -453,11 +564,6 @@ input[type=text], input[type=email], select, textarea {
 
 
 @media screen and (max-width: 1280px) {
-    .nav-links {
-        display: flex;
-        justify-content: space-around;
-        width: 40%;
-    }
     .spotify-playlist {
         max-width: 70%;
         margin: 0 5px;
@@ -474,26 +580,6 @@ input[type=text], input[type=email], select, textarea {
     body {
         overflow-x: hidden;
     }
-    .nav-links {
-        position: absolute;
-        right: 0;
-        height: 92vh;
-        top: 6vh;
-        background-color: var(--abisso);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-    }
-    .nav-links li {
-        opacity: 0;
-    }
-    .burger {
-        display: block;
-        cursor: pointer;
-    }
     .videosrc {
         max-width: 100%;
     }
@@ -502,10 +588,6 @@ input[type=text], input[type=email], select, textarea {
         flex: 40%;
     }
      */
-    .nav-active {
-        transform: translateX(0%);
-    }
-
     .slideshow-container {
         max-width: 100%;
         position: relative;
