@@ -1,40 +1,57 @@
 # M1LDL1FE Band Site
 
-Access the site [here](https://github.shuqri.xyz/IDAssignment1/).
+Access the site here: https://github.shuqri.xyz/IDAssignment1/
 
-The site's audience is followers of the band who would want to know more about them. There is a history section in the
-band sub-page where it talks about the band's formation and the members of the band.
-
-The fans can gain from this by directly interacting with the band through the website. For example, they can buy 
-merchandise from the site.
+This site's purpose is a one-stop shop for followers of the band to gather information. There are a number of features that 
+are useful to the fans. An example would be the merch page, where fans can see the merchandise on sale.
 
 ## Design Process
 
-Provide us insights about your design process, focusing on whom this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I had to design a simple, yet effective site for the band's fan base, and others who may just be browsing around.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+I decided to not overcrowd the site with a lot of information by splitting the content into different subpages. The site 
+also had to be easy to read and hence the font is in sans-serif. 
 
 
-I made a wireframe to give myself a rough idea on how I should have the website layout to be.
+Some user stories:
+- As a fan, I go to the merch page and browse, so that I can buy their merchandise.
+- As a bar owner, I go to the contact page and fill in the form, so that I can book them for a show.
+- As a 'local bands' writer, I go to the band page and read up on the history, so I can write an article on them.
 
-https://xd.adobe.com/view/5d49ca75-b002-41b2-b911-22fa13caeb6d-081a/
+With this thought process, I made a wireframe to give myself a rough idea on how I should have the website layout to be.
+
+Adobe XD wireframe link: https://xd.adobe.com/view/5d49ca75-b002-41b2-b911-22fa13caeb6d-081a/
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The website has a total of 5 HTML pages; index, band, merch, contact and thanks. These are the content for each of the page:
 
 ### Existing Features
-- Search feature in merch.html
-  - Allows users to filter through the 
-  - 
-- Contact Form
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- **SITE-WIDE FEATURES:**
+  - The header consists of the band's name and the navbar for ease of navigation.
+  - The footer contains the copyright notice and the social media links of the band for users to find their Instagram or Facebook accounts easier.
+- **INDEX.HTML:**
+  - In this page, there are 3 sections which are the showcase, promotions and the shows.
+    - The showcase promotes the band's latest activity.
+    - The promotions section is where the band can display any of their work there.
+    - The shows section is where the band can inform fans of their live shows.
+- **BAND.HTML**
+  - This page features the band's history and its members.
+- **MERCH.HTML**
+  - This page is where users can find the merchandise that the band is selling.
+  - There is a feature where it allows users to filter through the numerous merchandise there are using a search box.
+- **CONTACT.HTML**
+  - This page is where users can contact the band through a form, either for general enquiries or for booking purposes.
+  - The form in this page is working and live.
+    - (This contact form will only work at the official site and not offline.)
+- **THANKS.HTML**
+  - This page is a “Thank You” page when after the user submits the form in the aforementioned page.
+  - This page will automatically redirect the user to the contact page after 3 seconds.
 
 ### Features Left to Implement
-- Shopping cart to add merchandise and total up the price
+- **ADDITIONS TO MERCH.HTML**
+  - There can be an "Add to cart" button for each merchandise where it will add it into a shopping cart.
+  - After that, it will automatically calculate the total and present to you the amount payable.
 
 ## Technologies Used
 - HTML
@@ -67,6 +84,7 @@ The project will also automatically shrink the page to an appropriate size when 
 - Most content are sourced from: https://www.m1ldl1fe.com/
 - Spotify tracks: https://open.spotify.com/artist/4dDWr3bmcGdlbLsWofWail/
 - [Montserrat](https://fonts.google.com/specimen/Montserrat) made by Google Fonts
+- [Terra](https://www.colourlovers.com/palette/292482/Terra) colour palette made by [GlueStudio](https://www.colourlovers.com/lover/GlueStudio)
 
 
 ### Media
@@ -95,7 +113,7 @@ A big thank you to my friends for helping me test the site and also by giving me
 
 I received inspiration from the original m1ldl1fe site.
 
-For the contact form, I saw a use case at https://github.com/bluesoulian/meokja.sg where he used FormSubmit to make the 
+For the contact form, I saw a use case at [this GitHub repository](https://github.com/bluesoulian/meokja.sg) where he used FormSubmit to make the 
 form work.
 
 - Navigation bar:
