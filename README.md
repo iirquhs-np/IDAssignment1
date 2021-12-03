@@ -15,9 +15,10 @@ Provide us insights about your design process, focusing on whom this website is 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process.
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url.
+
+I made a wireframe to give myself a rough idea on how I should have the website layout to be.
+
+https://xd.adobe.com/view/5d49ca75-b002-41b2-b911-22fa13caeb6d-081a/
 
 ## Features
 
@@ -26,19 +27,19 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 - Search feature in merch.html
   - Allows users to filter through the 
+  - 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Shopping cart
 
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
-- Google Fonts - specifically [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - [FormSubmit](https://formsubmit.co/)
     - This project uses **FormSubmit** to make HTML forms live.
 
@@ -70,6 +71,8 @@ The project will also automatically shrink the page to an appropriate size when 
 ### Content
 - Most content are sourced from: https://www.m1ldl1fe.com/
 - Spotify tracks: https://open.spotify.com/artist/4dDWr3bmcGdlbLsWofWail/
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) made by Google Fonts
+
 
 ### Media
 - The photos used in this site were obtained from:
@@ -101,7 +104,7 @@ For the contact form, I saw a use case at https://github.com/bluesoulian/meokja.
 form work.
 
 - Navigation bar:
-  - [fill up]
+  - https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell
 - Merch filtering:
   - https://www.w3schools.com/howto/howto_js_filter_lists.asp/
 - Contact form:
