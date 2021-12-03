@@ -28,13 +28,13 @@ In this section, you should go over the different parts of your project, and des
 - Search feature in merch.html
   - Allows users to filter through the 
   - 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- Contact Form
 - ...
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Shopping cart
+- Shopping cart to add merchandise and total up the price
 
 ## Technologies Used
 - HTML
@@ -51,12 +51,7 @@ The site has been tested using the W3Schools validator with no major issues.
 
 Some testing process that you can go through:
 
-1. Merchandise page:
-   1. Go to the "Merch" page
-   2. [to be filled up]
-
-
-2. Contact form:
+1. Contact Form:
     1. Go to the "Contact" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
